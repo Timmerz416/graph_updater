@@ -29,7 +29,7 @@ int main(void) {
 		if(curl_handle) {
 			// Run through each url
 			for(register int i = 0; i < n; i++) {
-				string url = "http://dihedral/" + url_list[i];  // Get the url
+				string url = "http://serac/" + url_list[i];  // Get the url
 				curl_easy_setopt(curl_handle, CURLOPT_URL, url.c_str());   // Set the tcp address
 				CURLcode result = curl_easy_perform(curl_handle);
 
@@ -46,3 +46,4 @@ int main(void) {
     }
     return 0;
 }
+

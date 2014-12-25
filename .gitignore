@@ -1,0 +1,10 @@
+# Ignore files in the following directory
+CMakeFiles/
+
+# Ignore cmake files
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore the executable
+graph_updater
