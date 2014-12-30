@@ -8,12 +8,15 @@ using namespace std;
 
 int main(void) {
     // Create the list of urls to call
-    int n = 4;
+    int n = 7;
     vector<string> url_list(n);
     url_list[0] = "indoor_temperature_graph.php";
     url_list[1] = "outdoor_temperature_graph.php";
     url_list[2] = "luminosity_graph.php";
     url_list[3] = "pressure_graph.php";
+	url_list[4] = "lux_graph.php";
+	url_list[5] = "heating_graph.php";
+	url_list[6] = "humidity_graph.php";
 
     // Set the clock initialization
     timespec interval;
