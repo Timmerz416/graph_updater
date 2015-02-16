@@ -12,7 +12,7 @@ int main(void) {
     vector<string> url_list(n);
     url_list[0] = "indoor_temperature_graph.php";
     url_list[1] = "outdoor_temperature_graph.php";
-    url_list[3] = "lux_graph.php";
+    url_list[2] = "lux_graph.php";
 
     // Set the clock initialization
     timespec interval;
